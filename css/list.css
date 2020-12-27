@@ -1,0 +1,85 @@
+.top_p1 {
+    color: #808080;
+}
+
+.list_img_1 {
+    transition: transform 2s;
+}
+
+.list_img_1:hover {
+    transform: scale(1.2);
+}
+
+.my_input {
+    width: 10%;
+    outline: 0;
+    border: 0px;
+}
+
+.list_btn_1 {
+    width: 1.5rem;
+    height: 1.5rem;
+    font-weight: bolder;
+    line-height: 1;
+    padding-bottom: 0.25rem;
+}
+
+.list_btn_1:focus {
+    outline: 0;
+}
+
+.active .page-link {
+    background: #0aa1ed !important;
+}
+
+.page-link:hover {
+    border-color: #0aa1ed;
+}
+
+.my_font {
+    font-size: 0.75rem;
+}
+
+.my_shopcar {
+    width: 25%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-5 {
+    width: 5%;
+}
+
+.my_btn_list_1 {
+    outline: 0;
+    border: 0;
+    width: 1rem;
+    height: 1rem;
+    background: #ccc;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #999;
+    padding: 0 0.25rem 0.45rem 0.25rem;
+}
+
+.my_btn_list_1:focus {
+    outline: 0;
+}
+
+.my_list_input {
+    outline: 0;
+}
+
+.my_list_input:focus {
+    outline: 0;
+}
+
+.border_top {
+    border-top: 1px dotted #ccc;
+}
+
+.border_bottom {
+    border-bottom: 1px dotted #ccc;
+}

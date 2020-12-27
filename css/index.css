@@ -1,0 +1,79 @@
+.carousel-indicators>li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    background: #0aa1ed;
+}
+
+.carousel-control-next {
+    width: 4%;
+    height: 20%;
+    background: #000;
+    opacity: .1;
+    top: 40%;
+}
+
+.carousel-control-next:hover {
+    opacity: .3;
+}
+
+.carousel-control-prev {
+    width: 4%;
+    height: 20%;
+    background: #000;
+    opacity: .1;
+    top: 40%;
+}
+
+.carousel-control-prev:hover {
+    opacity: .3;
+}
+
+
+/* 首页推荐 */
+
+.border-bottom {
+    border-color: #999 !important;
+}
+
+.h4 {
+    color: #666;
+}
+
+
+/* 1L */
+
+.top_height {
+    height: 377px;
+    background: #e8e8e8;
+}
+
+
+/* top_right */
+
+.bottom_height {
+    height: 233px;
+    background: #e8e8e8;
+}
+
+.l1_img_1,
+.l1_img_2 {
+    float: right;
+    transition: transform 1s;
+}
+
+.l1_img_1 {
+    margin: -230px 30px 0px 0px;
+}
+
+.l1_img_2 {
+    margin: -186px 23px 0px 0px;
+}
+
+.l1_img_1:hover,
+.l1_img_2:hover {
+    transform: scale(1.1);
+}

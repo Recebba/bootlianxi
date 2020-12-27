@@ -1,0 +1,46 @@
+.bg_gray {
+    background: linear-gradient(to bottom, #f0f0f0 0%, #e0e0e0 100%)
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.list_btn_1 {
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 0;
+    padding: 0 0 0.5rem 0;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.list_btn_1:focus {
+    outline: 0;
+}
+
+.list_input_1 {
+    border: 0;
+    outline: 0;
+}
+
+.list_input_1:focus {
+    outline: 0;
+}
+
+.list_img_1 {
+    transition: transform 1s;
+}
+
+.list_img_1:hover {
+    transform: scale(1.1);
+}
+
+.active .page-link {
+    background: #0aa1ed !important;
+}
+
+.page-link:hover {
+    border-color: #0aa1ed;
+}

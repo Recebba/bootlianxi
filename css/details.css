@@ -1,0 +1,50 @@
+.breadcrumb-item+.breadcrumb-item::before {
+    content: ">";
+}
+
+.details_d {
+    background: #ccc;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.active {
+    border-color: #0aa1ed !important;
+}
+
+.details_span_1 {
+    color: #ccc !important;
+    font-size: 0.5rem;
+    background-color: #f5f5f5 !important;
+}
+
+.details_span_1:hover {
+    color: #0aa1ed;
+    border-color: #0aa1ed !important;
+    background-color: transparent;
+}
+
+.w-15 {
+    width: 10%;
+    height: 1.85rem;
+}
+
+.deteils_input_1 {
+    border-color: #dddddd;
+    outline: 0;
+    border: 1px solid #efefef;
+}
+
+.deteils_input_1:focus {
+    outline: 0;
+}
+
+.details_btn_1 {
+    padding: 0 0.5rem 0.25rem 0.5rem;
+    border-radius: 0;
+    border-color: #dddddd;
+    background: #efefef;
+}
+
+.d-flex .text-info {
+    font-size: 1.25rem;
+}
